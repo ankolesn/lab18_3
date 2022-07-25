@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    LRU_Cache lru(3);
+    LRU_Cache<string> lru(3);
 
     lru.has("111");
     lru.has("222");
